@@ -14,3 +14,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Chat"
 include ':app'
+include ':feature_chat_login'
+include ':feature_chat_login:domain'
+include ':feature_chat_login:presentation'
+include ':feature_chat_login:data'
